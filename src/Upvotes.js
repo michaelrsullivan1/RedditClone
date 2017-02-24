@@ -1,8 +1,13 @@
 import React from 'react';
+import './Upvotes.css';
 
 function Upvotes({ score }) {
 	return (
-		<p>Post Score: {score}</p>
+		<div className="votes">
+			<i className="fa fa-arrow-up" aria-hidden="true"></i>
+			<span>{score}</span>
+			<i className="fa fa-arrow-down" aria-hidden="true"></i>
+		</div>
 	);
 }
 

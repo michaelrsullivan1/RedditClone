@@ -10,6 +10,7 @@ class SinglePost extends Component {
 			<div className="single-post">
 				<Upvotes score={post.score} />
 				<div className="thumbnail">
+					<img src={post.thumbnail} alt={post.title}/>
 				</div>
 				<PostInfo post={post} />
 			</div>

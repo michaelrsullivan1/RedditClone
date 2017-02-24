@@ -4,7 +4,7 @@ import SinglePost from './SinglePost.js'
 
 class Listing extends Component {
   	render() {
-		let testPost = this.props.data.data.children[1].data;
+		let testPost = this.props.data.data.children[2].data;
 		console.log(testPost);
     	return (
       		<div className="reddit-list">

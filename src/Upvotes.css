@@ -1,0 +1,15 @@
+
+/*-- Upvotes --*/
+
+.votes i {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.votes span {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+

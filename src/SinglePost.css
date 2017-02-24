@@ -2,6 +2,81 @@
 /*-- Single Post Styles --*/
 
 .single-post {
-	
+	padding: 2%;	
+}
+
+.single-post .votes {
+	vertical-align: top;
+}
+
+.single-post .thumbnail {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.single-post .thumbnail img {
+	width: 90px;
+}
+
+.single-post .post-info {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 12px;
+}
+
+.single-post .info-top .title {
+	margin: 0;
+}
+
+.single-post .info-top .title a {
+	text-decoration: none;	
+	font-size: 18px;
+}
+
+.single-post .info-top .title span {
+	font-size: 10px;
+	padding-left: 4px;
+}
+
+.single-post .info-middle {
+	padding: 2px 0;
+}
+
+.single-post .info-middle p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.single-post .info-middle p a {
+	text-decoration: none;
+	color: #369;
+}
+
+.single-post .info-middle p a:hover {
+	text-decoration: underline;
+}
+
+.single-post .info-bottom p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.single-post .info-bottom p span:first-child {
+	padding: 0;
+}
+
+.single-post .info-bottom p span {
+	padding: 0 4px;
+	font-weight: 600;
+}
+
+.single-post .info-bottom p span a {
+	color: #888;
+	text-decoration: none;
+}
+
+.single-post .info-bottom p span a:hover {
+	color: #888;
+	text-decoration: underline;
 }
 

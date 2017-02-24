@@ -1,6 +1,10 @@
 
 /*-- Upvotes --*/
 
+.votes {
+	display: inline-block;
+}
+
 .votes i {
 	display: inline-block;
 	width: 100%;

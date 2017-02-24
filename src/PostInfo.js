@@ -4,23 +4,22 @@ import moment from 'moment';
 function PostInfo({ post }) {
 	let perm = `http://www.reddit.com${post.permalink}`;
 	let time = moment().utc(post.created_utc).fromNow();
-	console.log(time);
 	return (
 		<div className="post-info">
 			<div className="info-top">
-				<p className="title"><a href={perm} target="_blank">{post.title}</a><span className="domain">{post.domain}</span></p>
+				<p className="title"><a href={perm} target="_blank">{post.title}</a><span className="domain">({post.domain})</span></p>
 			</div>
 			<div className="info-middle">
-				<p>Submitted {time} by {post.author}</p>
+				<p>Submitted {time} by <a href="#">{post.author}</a></p>
 			</div>
 			<div className="info-bottom">
 				<p>
-					<span>{post.num_comments}</span>
-					<span>store</span>
-					<span>save</span>
-					<span>hide</span>
-					<span>report</span>
-					<span>pocket</span>
+					<span><a href="#">{post.num_comments} comments</a></span>
+					<span><a href="#">store</a></span>
+					<span><a href="#">save</a></span>
+					<span><a href="#">hide</a></span>
+					<span><a href="#">report</a></span>
+					<span><a href="#">pocket</a></span>
 				</p>
 			</div>
 		</div>
